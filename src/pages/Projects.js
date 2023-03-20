@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
 import baseball from "../assets/projects/baseball.PNG";
+import thenadlee from "../assets/projects/thenadlee.PNG";
 
 const Projects = () => {
   return (
@@ -34,18 +35,18 @@ const Projects = () => {
               title="Playlist"
               description="sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss"
               ghLink=""
-              demoLink=""
+              demoLink="http://localhost/playlist/index.php"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={baseball}
+              imgPath={thenadlee}
               isBlog={false}
-              title="TheNaddle"
+              title="TheNadlee"
               description="sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss"
-              ghLink=""
-              demoLink=""
+              ghLink="https://github.com/hanyoko/THENADLEE.git"
+              demoLink="https://team-project-thenadlee.vercel.app/"
             />
           </Col>
 

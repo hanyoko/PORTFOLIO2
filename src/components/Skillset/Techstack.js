@@ -17,8 +17,7 @@ import {
   SiMysql
 } from "react-icons/si";
 import {
-  FaNode,
-  FaAws
+  FaNode
 } from "react-icons/fa"
 // import "./Techstack.scss";
 import { Col, Row } from "react-bootstrap";
