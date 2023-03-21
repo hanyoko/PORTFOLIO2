@@ -4,6 +4,8 @@ import ProjectCard from "../components/Projects/ProjectCard";
 import Particle from "../components/Particle";
 import baseball from "../assets/projects/baseball.PNG";
 import thenadlee from "../assets/projects/thenadlee.PNG";
+import playlist from "../assets/projects/Playlist.PNG";
+
 
 const Projects = () => {
   return (
@@ -30,12 +32,12 @@ const Projects = () => {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={baseball}
+              imgPath={playlist}
               isBlog={false}
               title="Playlist"
               description="sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss"
-              ghLink=""
-              demoLink="http://localhost/playlist/index.php"
+              ghLink="https://github.com/hanyoko/PLAYLIST.git"
+              demoLink="http://hanyoko.dothome.co.kr/playlist/"
             />
           </Col>
 
