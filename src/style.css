@@ -253,13 +253,15 @@ html {
     height: 100%;
   }
   
-  #home, #about {
-    height: 100vh;
-  }
+  
   .home-header {
     padding-top: 10% !important;
   }
   
+  #home, #about {
+    height: 100vh;
+  }
+
   .home-section {
     position: relative;
     z-index: -1;
