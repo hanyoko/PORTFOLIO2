@@ -7,7 +7,6 @@ import playlist from "../assets/projects/playlist.PNG";
 import thenadlee from "../assets/projects/thenadlee.PNG";
 
 
-
 const Projects = () => {
   return (
     <Container fluid className="project-section">

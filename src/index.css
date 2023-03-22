@@ -6,9 +6,10 @@
   font-style: normal;
 }
 
+
 body {
   margin: 0;
-  font-family: "Raleway", "LINESeedKR-Bd", serif ;
+  font-family: "Raleway", "LINESeedKR-Bd", serif,  !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-image: linear-gradient(to left, rgb(5, 8, 40), rgb(1, 4, 39));

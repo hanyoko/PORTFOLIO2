@@ -8,7 +8,6 @@
 #start {
     color: white;
     text-align: center;
-    /* position: absolute; */
     font-family: 'LINESeedKR-Bd';
     height: 94vh;
 }
@@ -16,10 +15,9 @@
     font-size: 200px;
     transform: translateY(150%);
 }
-
-.left {
-    color: green;
+h1 {
+    color: whitesmoke;
 }
-.right {
-    color: purple;
+.left, .right {
+    color: #7500fa;
 }

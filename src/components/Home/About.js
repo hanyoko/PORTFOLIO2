@@ -1,10 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-// import LaptopImg from "../../assets/home-main.svg";
+import LaptopImg from "../../assets/yohan2.PNG";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  // AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -19,6 +19,15 @@ const About = () => {
                 <h1 style={{ fontSize: "2.6em" }}>
                   LET ME <span className="yellow"> INTRODUCE </span> MYSELF
                 </h1>
+                <Col className="about-icons">
+                  생년월일
+                </Col>
+                <Col className="about-icons">
+                </Col>
+                <Col className="about-icons">
+                </Col>
+                <Col className="about-icons">
+                </Col>
                 {/* <p className="home-about-body">
                  Hi, my name is <span className="yellow">Md Abu Bakkar Siddiqe Sajib </span>
                  and I'm from <span className="yellow"> Dhaka, Bangladesh.</span>
@@ -63,8 +72,7 @@ const About = () => {
               </Col>
               <Col md={4} className="myAvtar">
                 <Tilt>
-                  {/* <img src={LaptopImg} className="img-fluid" alt="avatar" /> */}
-                  <p>사진 넣을 자리</p>
+                  <img src={LaptopImg} className="img-fluid" alt="avatar" />
                 </Tilt>
               </Col>
             </Row>

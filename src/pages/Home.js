@@ -1,9 +1,10 @@
 import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from '../assets/about.png'
+import homeLogo from '../assets/yohan.PNG'
 import Particle from '../components/Particle';
 import About from '../components/Home/About';
 import Type from '../components/Home/Type';
+
 
 const Home = () => {
   return (
@@ -31,13 +32,12 @@ const Home = () => {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              {/* <img
+              <img
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "450px" }}
-              /> */}
-              <p>사진 넣을 자리</p>
+              />
             </Col>
           </Row>
         </Container>

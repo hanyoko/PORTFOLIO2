@@ -2,15 +2,14 @@ import React from 'react'
 import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
+  AiFillInstagram
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import './Social.css'
 
 const Social = () => {
   return (
-    <Container style={{padding: '30px'}}>
+    <Container style={{paddingTop: '80px'}}>
     <Row>
               <Col md={12} className="contact-social">
                 <div className='contact-text'>
